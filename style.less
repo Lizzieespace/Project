@@ -1,0 +1,11 @@
+html {
+  .basket(#335, #dde, #aab, 40px);
+}
+
+.basket(@background, @to-right, @to-left, @size:25px) {
+  background: linear-gradient(45deg, @to-right 12%, transparent 0, transparent 88%, @to-right 0),
+              linear-gradient(135deg, transparent 37%, @to-left 0, @to-left 63%, transparent 0),
+              linear-gradient(45deg, transparent 37%, @to-right 0, @to-right 63%, transparent 0),
+              @background;
+  background-size: @size @size;
+}
