@@ -1,4 +1,9 @@
-
+body {
+  font: bold 14px Helvetica, Arial;
+  background-color: black;
+  color: white;
+  line-height: 170%;
+}
 
 .container {
     padding: 80px 120px;
@@ -54,4 +59,11 @@
   .topnav a.active {
     background-color: #8B0000;
     color: white;
+  }
+
+  /* Styles 'About' page */
+  .about {
+    text-align: left, justify;
+    width: 50%;
+    font-size: 20px;
   }
