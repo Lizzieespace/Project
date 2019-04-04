@@ -24,6 +24,10 @@ body {
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
+
+  .carousel .item {
+  height: 700px;
+}
   .carousel-caption h3 {
     color: #fff !important;
   }
@@ -66,4 +70,12 @@ body {
     text-align: left, justify;
     width: 50%;
     font-size: 20px;
+  }
+
+  #gallery {
+    padding: 250px 250px;
+  }
+
+  #music {
+    padding: 450px 250px;
   }
